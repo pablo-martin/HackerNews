@@ -1,0 +1,69 @@
+Traceback (most recent call last):
+  File "/Users/pablomartin/python/HackerNews/webscraper.py", line 6, in <module>
+    from bs4 import BeautifulSoup
+ImportError: No module named bs4
+Traceback (most recent call last):
+  File "/Users/pablomartin/python/HackerNews/webscraper.py", line 6, in <module>
+    from bs4 import BeautifulSoup
+ImportError: No module named bs4
+/bin/sh: /Applications/anaconda2/lib/python2.7: is a directory
+-bash: /Applications/anaconda2/lib/python2.7: is a directory
+Traceback (most recent call last):
+  File "/Users/pablomartin/python/HackerNews/webscraper.py", line 63, in <module>
+    single_scrape()
+  File "/Users/pablomartin/python/HackerNews/webscraper.py", line 38, in single_scrape
+    scheduler = pickle.load(open('scheduler.p','rb'))
+IOError: [Errno 2] No such file or directory: 'scheduler.p'
+Traceback (most recent call last):
+  File "/Users/pablomartin/python/HackerNews/webscraper.py", line 65, in <module>
+    single_scrape()
+  File "/Users/pablomartin/python/HackerNews/webscraper.py", line 40, in single_scrape
+    scheduler = pickle.load(open('scheduler.p','rb'))
+IOError: [Errno 2] No such file or directory: 'scheduler.p'
+scraping another webpage...
+scraping another webpage...
+scraping another webpage...
+scraping another webpage...
+scraping another webpage...
+scraping another webpage...
+scraping another webpage...
+added 65 new headlines:
+Traceback (most recent call last):
+  File "/Users/pablomartin/python/HackerNews/webscraper.py", line 65, in <module>
+    single_scrape()
+  File "/Users/pablomartin/python/HackerNews/webscraper.py", line 58, in single_scrape
+    print('\t'+ new_news)
+UnicodeEncodeError: 'ascii' codec can't encode character u'\u2019' in position 15: ordinal not in range(128)
+scraping another webpage...
+scraping another webpage...
+added 0 new headlines:
+we have a total of 1195 headlines
+scraping another webpage...
+added 1 new headlines:
+Traceback (most recent call last):
+  File "/Users/pablomartin/python/HackerNews/webscraper.py", line 65, in <module>
+    single_scrape()
+  File "/Users/pablomartin/python/HackerNews/webscraper.py", line 58, in single_scrape
+    print(unicode('\t'+ new_news))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\u2013' in position 18: ordinal not in range(128)
+Scraping website at 2018-10-29 20:18:00.726160
+scraping another webpage...
+added 0 new headlines:
+we have a total of 1196 headlines
+Scraping website at 2018-10-29 20:19:00.396092
+scraping another webpage...
+scraping another webpage...
+added 0 new headlines:
+we have a total of 1196 headlines
+Scraping website at 2018-10-29 20:20:01.221392
+scraping another webpage...
+scraping another webpage...
+scraping another webpage...
+added 0 new headlines:
+we have a total of 1196 headlines
+Scraping website at 2018-10-29 20:21:01.176752
+scraping another webpage...
+scraping another webpage...
+added 1 new headlines:
+	How I Lent My $4,500 Camera Kit for $95 and Had It ‘Legally Stolen’
+we have a total of 1197 headlines
